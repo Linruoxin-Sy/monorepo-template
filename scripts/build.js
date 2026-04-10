@@ -1,5 +1,5 @@
 import { build } from 'vite';
-import { createViteConfig } from '../vite.config.js';
+import { createViteConfig } from './vite.config.js';
 import { getPackages } from './utils.js';
 
 async function run() {
