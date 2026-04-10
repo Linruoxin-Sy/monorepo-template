@@ -7,6 +7,6 @@ export function getPackages() {
 
   return fs
     .readdirSync(packagesDir)
-    .map((name) => path.join(packagesDir, name))
-    .filter((p) => fs.existsSync(path.join(p, 'package.json')));
+    .map(name => path.join(packagesDir, name))
+    .filter(p => fs.existsSync(path.join(p, 'package.json')));
 }
