@@ -10,7 +10,9 @@
     "build": "node scripts/build.js",
     "format": "prettier --write .",
     "eslint": "eslint",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "test": "vitest",
+    "test:browser": "vitest --config=vitest.browser.config.ts"
   },
   "config": {
     "commitizen": {
@@ -28,6 +30,7 @@
     "@types/node": "^24.12.2",
     "@vitejs/plugin-react": "^6.0.1",
     "@vitejs/plugin-vue": "^6.0.5",
+    "@vitest/browser-playwright": "^4.1.2",
     "commitizen": "^4.3.1",
     "cz-git": "^1.12.0",
     "eslint": "^10.2.0",
@@ -41,7 +44,10 @@
     "tsx": "^4.21.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.1",
-    "vite": "^8.0.8"
+    "vite": "^8.0.8",
+    "vitest": "^4.1.4",
+    "vitest-browser-vue": "^2.1.0",
+    "vue": "^3.5.32"
   },
   "engines": {
     "node": ">=22.14.0",
