@@ -55,4 +55,4 @@ export default {
       confirmCommit: '✅ 确认提交?',
     },
   },
-}
+};
