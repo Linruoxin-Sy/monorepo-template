@@ -13,7 +13,7 @@ export function createViteConfig(pkgDir, { watch = false } = {}) {
       lib: {
         entry,
         formats: ['es', 'cjs'],
-        fileName: format => `index.${format}.js`,
+        fileName: (format) => `index.${format}.js`,
       },
       outDir: path.resolve(pkgDir, 'dist'),
       emptyOutDir: true,

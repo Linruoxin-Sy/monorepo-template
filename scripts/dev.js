@@ -6,7 +6,7 @@ async function run() {
   const packages = getPackages();
 
   await Promise.all(
-    packages.map(pkg => {
+    packages.map((pkg) => {
       console.log(`👀 Watching ${pkg}`);
 
       return build({
@@ -17,7 +17,7 @@ async function run() {
   );
 }
 
-run().catch(err => {
+run().catch((err) => {
   console.error(err);
   process.exit(1);
 });
