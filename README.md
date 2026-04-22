@@ -6,7 +6,15 @@ monorepo-template is a project template based on the monorepo structure, designe
 
 ## Quick Start
 
-Clone this repository or directly download the ZIP file, simply modify the project configuration according to your needs, and you can start using it.
+Clone this repository or directly download the ZIP file, then make simple adjustments to the project configuration based on your needs.
+
+Initialize `husky`:
+
+```bash
+npx husky install
+```
+
+Now you can start using it.
 
 ## Contributing
 
